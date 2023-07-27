@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mccov"
+version = "0.0.1"
+authors = [
+    { name="Ziyuan Zhao", email="zhaoziyuan2000@gmail.com" },
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "jax",
+    "mdtraj",
+    "networkx"
+]
+
+description = "A package for interconverting between Cartesian and multiple customizable internal coordinates representation of molecular systems."
+readme = "README.md"
+requires-python = ">=3.7"
+
